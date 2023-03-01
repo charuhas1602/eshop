@@ -9,6 +9,7 @@ import ErrorPage from './pages/ErrorPage'
 import SingleProduct from './pages/SingleProduct'
 // import { GlobalStyle } from "./GlobalStyle";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 // import { ThemeProvider } from "styled-components";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/singleproduc/:id" element={<SingleProduct />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 
-const HeroSection = ({ title }) => {
+const HeroSection = ({ title, image }) => {
     return (
-        <div className='d-flex'>
-            <div className="col-6">
+        <div className='d-flex justify-content-center flex-wrap-reverse py-2'>
+            <div className="col-md-6 pb-2 px-2">
                 <div className="fs-1">
                     {title}
                 </div>
@@ -13,9 +13,9 @@ const HeroSection = ({ title }) => {
                 </p>
                 <Button>Shop</Button>
             </div>
-            <div className="col-6">
+            <div className="col-md-6 pb-2 px-2">
                 <figure>
-                    <img class="img-fluid" src="https://media.istockphoto.com/id/1314292277/photo/indian-diwali-shopping.jpg?s=612x612&w=0&k=20&c=Zz2gfPtv_XlHE2hzgffUyPNni8e-Kc9mDPFnFCeZ8k0=" alt="" srcset="" />
+                    <img class="img-fluid" src={image} alt="" srcset="" />
                 </figure>
             </div>
         </div>
