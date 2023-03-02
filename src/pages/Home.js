@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatureProducts from '../components/FeatureProducts'
 import HeroSection from '../components/HeroSection'
 import Services from '../components/Services'
 import Trusted from '../components/Trusted'
@@ -9,6 +10,7 @@ const Home = () => {
     return (
         <div className='container pt-4 mh-80'>
             <HeroSection title={Store} image={imageUrl}/>
+            <FeatureProducts/>
             <Services />
             <Trusted />
         </div>

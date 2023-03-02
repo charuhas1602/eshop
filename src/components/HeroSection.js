@@ -15,7 +15,7 @@ const HeroSection = ({ title, image }) => {
             </div>
             <div className="col-md-6 pb-2 px-2">
                 <figure>
-                    <img class="img-fluid" src={image} alt="" srcset="" />
+                    <img className="img-fluid" src={image} alt="" srcSet={image} />
                 </figure>
             </div>
         </div>

@@ -13,20 +13,20 @@ const Contact = () => {
       <div className="py-2">
         <div className="form w-50 mx-auto">
           <form action="https://formspree.io/f/mayzjowy" method='POST'>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlInput1">Name</label>
-              <input type="text" name="UserName" class="form-control" id="exampleFormControlInput1" placeholder="Name" required autoComplete='off' />
+              <input type="text" name="UserName" className="form-control" id="exampleFormControlInput1" placeholder="Name" required autoComplete='off' />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required autoComplete='off' />
+              <input type="email" name="Email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required autoComplete='off' />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required autoComplete='off' name="Message"></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" required autoComplete='off' name="Message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            <button type="submit" className="btn btn-primary mt-3">Submit</button>
           </form>
         </div>
       </div>
